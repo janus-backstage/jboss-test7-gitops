@@ -1,0 +1,21 @@
+app:
+  name: jboss-test7
+  namespace: jboss-test7-dev
+  cluster: 
+
+git:
+  branch: main
+  repo: https://github.com/janus-backstage/jboss-test7.git
+  org: janus-backstage
+  name: jboss-test7
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+
+image:
+  registry: Openshift
+  organization: 
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jboss-test7
+  tag: latest
